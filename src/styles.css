@@ -1,0 +1,40 @@
+/* styles.css */
+form {
+  max-width: 300px;
+  margin: auto;
+  padding: 1em;
+  border: 1px solid #cccccc;
+  border-radius: 1em;
+}
+
+div + div {
+  margin-top: 1em;
+}
+
+label {
+  display: block;
+  margin-bottom: .5em;
+  color: #333333;
+}
+
+input {
+  border: 1px solid #CCCCCC;
+  padding: .5em;
+  font-size: 1em;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+button {
+  padding: 0.7em;
+  color: #fff;
+  background-color: #007BFF;
+  border: none;
+  border-radius: 0.3em;
+  cursor: pointer;
+  margin-top: 1em; /* Add margin-top for space between buttons */
+}
+
+button:hover {
+  background-color: #000000;
+}
